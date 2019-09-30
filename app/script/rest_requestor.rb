@@ -2,6 +2,16 @@
 require 'rest-client'
 # puts "Enter the url"
 # urls = gets.chomp
-url = "http://localhost:3000/users"
+#GET - index
+#url = "http://localhost:3000/users"
+
+#GET - show
+#url = "http://localhost:3000/users/1"
+
+#GET - new
+#url = "http://localhost:3000/users/new"
+
+#GET - edit
+url = "http://localhost:3000/users/1/edit"
 
 puts RestClient.get(url)
